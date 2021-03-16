@@ -50,7 +50,7 @@ Downloading samonella playlist
 100%|████████████████████████████████████████████████████| 4/4 [00:13<00:00,  3.46s/it]
 Download Completed samonella
 ```
-Downloading a playlist;
+Downloading multiple videos;
 ```bash
 $ python3 downloader.py -m https://www.youtube.com/watch?v=qYnnCTfHsVM https://www.youtube.com/watch?v=_DFDTmcUXYs
 Downloading Sam O Nella Uh Oh
