@@ -19,7 +19,6 @@ class Downloader:
     def playlist_downloader(self, link):
         self.p = Playlist(link)
         print(f'Downloading {self.p.title} playlist')
-        self.title=[]
         bar = tqdm(total=len(self.p)) 
         for self.video in tqdm(self.p.videos):
             self.video.streams.first().download()
